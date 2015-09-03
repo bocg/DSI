@@ -15,7 +15,6 @@ $(document).ready(function() {
     Pace.on('done', function(){
         $('.cover').fadeOut(2000);
     });
-
   }
 
   // WOW.js configuration
@@ -61,7 +60,6 @@ $(document).ready(function() {
         }
     });
   }); // End window scroll event
-
 
 
 
