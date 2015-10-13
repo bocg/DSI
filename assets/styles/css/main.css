@@ -468,6 +468,17 @@ a {
 .nav-collapse-buttons {
   float: right; }
 
+.navbar-not-home {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  -webkit-transition: all 0.2s ease-out;
+          transition: all 0.2s ease-out; }
+
+.nav-up {
+  top: -52px; }
+
 .dropdown-menu > li > a {
   -webkit-transition: all 0.3s ease-out;
           transition: all 0.3s ease-out; }
@@ -961,7 +972,9 @@ form {
   .phone-button-wrapper {
     display: inline-block; }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
-    color: #2B4592; } }
+    color: #2B4592; }
+  .page-body {
+    padding-top: 20px; } }
 
 .display-590 {
   display: none; }
